@@ -1,6 +1,6 @@
 # OpenAlex Literature Retrieval
 
-This script uses the [OpenAlex API](https://docs.openalex.org/api) to collect metadata about academic papers matching a given query, and exports the results to a CSV file.
+This script uses the [OpenAlex API](https://docs.openalex.org) to collect metadata about academic papers matching a given query, and exports the results to a CSV file.
 
 ## Features
 - Query OpenAlex by topic and year
@@ -8,8 +8,11 @@ This script uses the [OpenAlex API](https://docs.openalex.org/api) to collect me
 - Handle pagination and deduplicate records
 
 ## Usage
+#### Install dependencies:
 ```bash
 pip install -r requirements.txt
-
+```
+#### Retrieve papers and export CSV:
 ```bash
 python OpenAlexAPI.py
+```
