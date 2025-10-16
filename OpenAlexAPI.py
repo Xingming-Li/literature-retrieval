@@ -107,7 +107,7 @@ def fetch_articles(base_query, year, max_per_year=1500):
 
 
 # === Main Execution ===
-BASE_QUERY = "dialectal variation Arabic healthcare"
+BASE_QUERY = "Enter your keyword/query here"
 
 all_data = []
 for year in range(2016, 2026):
