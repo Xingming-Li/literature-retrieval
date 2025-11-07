@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import time
 
-API_KEY = "961c10320fc700b1951232b622f6cdee"
+API_KEY = "Enter Scopus API key here"
 BASE_URL = "https://api.elsevier.com/content/search/scopus"
 HEADERS = {"X-ELS-APIKey": API_KEY, "Accept": "application/json"}
 
